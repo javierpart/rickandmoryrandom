@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <style>
+
+        .container{
+            width: 25%;
+            margin-top: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        img{
+            display: block;
+            max-width: 200px;
+            height: auto;
+        }
+        .navbar-brand{
+            display: block; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+        nav{
+            height: 80px;
+            }
+
+
+    </style>
+    <title>rick and morty random character</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand ">
+            <img src="./img/logo.png"  alt="">
+        </a>
+    </nav>
+    <main class="container">
+        <section class="row">
+            <h1>Name</h1>
+            <img id="img-api" src="./img/blank.png" alt="" class="img-fluid ">
+            <ul class="list-group list-group-flush">
+                <li id="status" class="list-group-item">status</li>
+                <li id="species" class="list-group-item">species</li>
+                <li id="gender" class="list-group-item">gender</li>
+              </ul>
+              <button type="button" class="btn btn-primary btn-lg btn-block">New Character</button>
+        </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+    
+</body>
+</html>
